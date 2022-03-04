@@ -1,0 +1,85 @@
+          .App {
+            text-align: center;
+              width: 80%;
+              margin: auto;
+              margin-left: auto;
+              margin-right: auto;
+          }
+
+          .form-control-class{
+            /* display:flex;
+            flex-direction: column; */
+            align-items: center;
+            margin: 20px;
+          }
+          .todo-list-container{
+          align-items: center;
+          justify-content: center;
+          /* overflow: hidden;
+          height: 50vh;
+          overflow-y: scroll; */
+          }
+          .btn-addItem{
+            margin: 5px;
+            width: 70px;
+            height: 45px;
+          }
+          .btn-AddItemList{
+            margin: 10px;
+            width: 70px;
+            height: 45px;
+          }
+          button{
+            margin: 0px 10px;
+          }
+          .Todo-item{
+            display: flex;
+              align-items: center;
+              justify-content: start;
+              border: 8px solid gray;
+              height: 40px;
+          }
+          .Todo-item input{
+            flex: 0.1;
+            width: 40px;
+              height: 35px
+          }
+          .checkListClass{
+            display: flex;
+              align-items: center;
+              justify-content: start;
+          }
+          .checkListClass input{
+            flex: 0.1;
+            width: 40px;
+              height:35px
+          }
+          /* .Todo-item:hover{
+            background-color:red;
+          } */
+
+          .Todo-left-side-hover{
+            float: right;
+              margin: auto;
+              margin-right: 10px;
+          }
+
+          .checkListClass_delete{
+            margin: auto;
+            float: right;
+           margin-right: 10px;
+          }
+
+        
+          .tasks-checked {
+            text-decoration: line-through;
+          }
+          .tasks-check{
+            cursor: pointer;
+          }
+          progress{
+            width: 95%;
+          }
+          .progress-bar{
+            margin: 0px 0px 10px;
+          }
